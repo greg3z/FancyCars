@@ -1,4 +1,4 @@
-# FancyCars
+# 🚗 FancyCars 🚗
 
 FancyCars is a simple project to show the usage of [ListsView](https://github.com/greg3z/ListsView) and [StatesView](https://github.com/greg3z/StatesView).
 
