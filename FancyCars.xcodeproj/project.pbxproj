@@ -37,6 +37,7 @@
 		13AC441E1CEB7F62001E4AC3 /* R8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13AC44151CEB7F62001E4AC3 /* R8.jpg */; };
 		13AC44201CEB8010001E4AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AC441F1CEB8010001E4AC3 /* LaunchScreen.storyboard */; };
 		13AC44221CEB8029001E4AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AC44211CEB8029001E4AC3 /* Assets.xcassets */; };
+		13C83C1E1CEB82AC00E2C80F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 13C83C1D1CEB82AC00E2C80F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		13AC44151CEB7F62001E4AC3 /* R8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = R8.jpg; sourceTree = "<group>"; };
 		13AC441F1CEB8010001E4AC3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13AC44211CEB8029001E4AC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13C83C1D1CEB82AC00E2C80F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		13AC437C1CEB7E91001E4AC3 = {
 			isa = PBXGroup;
 			children = (
+				13C83C1D1CEB82AC00E2C80F /* README.md */,
 				13AC439A1CEB7F50001E4AC3 /* Controller */,
 				13AC439D1CEB7F50001E4AC3 /* Model */,
 				13AC43A11CEB7F50001E4AC3 /* View */,
@@ -124,8 +127,7 @@
 				13AC439B1CEB7F50001E4AC3 /* CarsViewController.swift */,
 				13AC439C1CEB7F50001E4AC3 /* ListTypeViewController.swift */,
 			);
-			name = Controller;
-			path = ../FancyCarsOld/Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		13AC439D1CEB7F50001E4AC3 /* Model */ = {
@@ -135,8 +137,7 @@
 				13AC439F1CEB7F50001E4AC3 /* DataManager.swift */,
 				13AC43A01CEB7F50001E4AC3 /* ListType.swift */,
 			);
-			name = Model;
-			path = ../FancyCarsOld/Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		13AC43A11CEB7F50001E4AC3 /* View */ = {
@@ -145,8 +146,7 @@
 				13AC43A21CEB7F50001E4AC3 /* ListsView */,
 				13AC43AE1CEB7F50001E4AC3 /* StatesView */,
 			);
-			name = View;
-			path = ../FancyCarsOld/View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		13AC43A21CEB7F50001E4AC3 /* ListsView */ = {
@@ -213,8 +213,7 @@
 				13AC44141CEB7F62001E4AC3 /* M4.jpg */,
 				13AC44151CEB7F62001E4AC3 /* R8.jpg */,
 			);
-			name = Images;
-			path = ../../FancyCarsOld/FancyCars/Images;
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +303,7 @@
 				13AC43D91CEB7F50001E4AC3 /* DataManager.swift in Sources */,
 				13AC43E01CEB7F50001E4AC3 /* ListsView.swift in Sources */,
 				13AC43DF1CEB7F50001E4AC3 /* Section.swift in Sources */,
+				13C83C1E1CEB82AC00E2C80F /* README.md in Sources */,
 				13AC43E41CEB7F50001E4AC3 /* Tools.swift in Sources */,
 				13AC43D81CEB7F50001E4AC3 /* Car.swift in Sources */,
 				13AC43DD1CEB7F50001E4AC3 /* Page.swift in Sources */,
@@ -458,6 +458,7 @@
 				13AC43991CEB7E91001E4AC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
