@@ -1,0 +1,6 @@
+[submodule "View/StatesView"]
+	path = View/StatesView
+	url = https://github.com/greg3z/StatesView
+[submodule "View/ListsView"]
+	path = View/ListsView
+	url = https://github.com/greg3z/ListsView
