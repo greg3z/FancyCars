@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		13AC43891CEB7E91001E4AC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AC43881CEB7E91001E4AC3 /* AppDelegate.swift */; };
 		13AC438E1CEB7E91001E4AC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AC438C1CEB7E91001E4AC3 /* Main.storyboard */; };
-		13AC43D61CEB7F50001E4AC3 /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AC439B1CEB7F50001E4AC3 /* CarsViewController.swift */; };
-		13AC43D71CEB7F50001E4AC3 /* ListTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AC439C1CEB7F50001E4AC3 /* ListTypeViewController.swift */; };
+		13AC43D61CEB7F50001E4AC3 /* CarsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AC439B1CEB7F50001E4AC3 /* CarsController.swift */; };
+		13AC43D71CEB7F50001E4AC3 /* ListTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AC439C1CEB7F50001E4AC3 /* ListTypeController.swift */; };
 		13AC43D81CEB7F50001E4AC3 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AC439E1CEB7F50001E4AC3 /* Car.swift */; };
 		13AC43D91CEB7F50001E4AC3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AC439F1CEB7F50001E4AC3 /* DataManager.swift */; };
 		13AC43DA1CEB7F50001E4AC3 /* ListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AC43A01CEB7F50001E4AC3 /* ListType.swift */; };
@@ -44,8 +44,8 @@
 		13AC43881CEB7E91001E4AC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13AC438D1CEB7E91001E4AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13AC43941CEB7E91001E4AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13AC439B1CEB7F50001E4AC3 /* CarsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsViewController.swift; sourceTree = "<group>"; };
-		13AC439C1CEB7F50001E4AC3 /* ListTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTypeViewController.swift; sourceTree = "<group>"; };
+		13AC439B1CEB7F50001E4AC3 /* CarsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsController.swift; sourceTree = "<group>"; };
+		13AC439C1CEB7F50001E4AC3 /* ListTypeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTypeController.swift; sourceTree = "<group>"; };
 		13AC439E1CEB7F50001E4AC3 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		13AC439F1CEB7F50001E4AC3 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		13AC43A01CEB7F50001E4AC3 /* ListType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListType.swift; sourceTree = "<group>"; };
@@ -121,8 +121,8 @@
 		13AC439A1CEB7F50001E4AC3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				13AC439B1CEB7F50001E4AC3 /* CarsViewController.swift */,
-				13AC439C1CEB7F50001E4AC3 /* ListTypeViewController.swift */,
+				13AC439B1CEB7F50001E4AC3 /* CarsController.swift */,
+				13AC439C1CEB7F50001E4AC3 /* ListTypeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -295,7 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13AC43DC1CEB7F50001E4AC3 /* Book.swift in Sources */,
-				13AC43D71CEB7F50001E4AC3 /* ListTypeViewController.swift in Sources */,
+				13AC43D71CEB7F50001E4AC3 /* ListTypeController.swift in Sources */,
 				13AC43FF1CEB7F50001E4AC3 /* StatesView.swift in Sources */,
 				13AC43D91CEB7F50001E4AC3 /* DataManager.swift in Sources */,
 				13AC43E01CEB7F50001E4AC3 /* ListsView.swift in Sources */,
@@ -307,7 +307,7 @@
 				13AC43F91CEB7F50001E4AC3 /* StatefulViewController.swift in Sources */,
 				13AC43FB1CEB7F50001E4AC3 /* ViewStateMachine.swift in Sources */,
 				13AC43891CEB7E91001E4AC3 /* AppDelegate.swift in Sources */,
-				13AC43D61CEB7F50001E4AC3 /* CarsViewController.swift in Sources */,
+				13AC43D61CEB7F50001E4AC3 /* CarsController.swift in Sources */,
 				13AC43DA1CEB7F50001E4AC3 /* ListType.swift in Sources */,
 				13AC43FA1CEB7F50001E4AC3 /* StatefulViewControllerImplementation.swift in Sources */,
 				13AC43E21CEB7F50001E4AC3 /* PageView.swift in Sources */,

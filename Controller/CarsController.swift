@@ -1,5 +1,5 @@
 //
-//  CarsViewController.swift
+//  CarsController.swift
 //  FancyCars
 //
 //  Created by Grégoire Lhotellier on 17/05/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CarsViewController: UIViewController {
+final class CarsController: UIViewController {
     
     let cars: Book<Car>
     
@@ -36,7 +36,7 @@ class CarsViewController: UIViewController {
             car, cell, _, _ in
             cell.selectionStyle = .None
             cell.textLabel?.text = car.model
-            cell.imageView?.image = UIImage(named: car.image)!
+            cell.imageView?.image = UIImage(named: car.image)
         }
         addChildViewController(listController)
         listController.view.frame = view.bounds

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ListTypeController.swift
 //  FancyCars
 //
 //  Created by Grégoire Lhotellier on 14/05/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ListTypeViewController: UIViewController {
+final class ListTypeController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,20 +24,20 @@ class ListTypeViewController: UIViewController {
             list, _ in
             let viewController: UIViewController
             switch list {
-            case .Array: viewController = CarsViewController(cars: carArray())
-            case .Page: viewController = CarsViewController(cars: carPage())
-            case .Book: viewController = CarsViewController(cars: carBook())
+            case .Array: viewController = CarsController(cars: carArray())
+            case .Page: viewController = CarsController(cars: carPage())
+            case .Book: viewController = CarsController(cars: carBook())
             case .AsyncArray:
                 let statesViewController = StatesView()
-                asyncCarArray { statesViewController.setChildViewController(CarsViewController(cars: $0)) }
+                asyncCarArray { statesViewController.childView = CarsController(cars: $0) }
                 viewController = statesViewController
             case .AsyncPage:
                 let statesViewController = StatesView()
-                asyncCarPage { statesViewController.setChildViewController(CarsViewController(cars: $0)) }
+                asyncCarPage { statesViewController.childView = CarsController(cars: $0) }
                 viewController = statesViewController
             case .AsyncBook:
                 let statesViewController = StatesView()
-                asyncCarBook { statesViewController.setChildViewController(CarsViewController(cars: $0)) }
+                asyncCarBook { statesViewController.childView = CarsController(cars: $0) }
                 viewController = statesViewController
             }
             viewController.title = "🚗 Fancy Cars 🚗"
