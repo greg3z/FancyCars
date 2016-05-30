@@ -31,16 +31,14 @@ final class CarsController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let listController = ListsView(elements: cars)
-        listController.configureCell = {
+        let listsView = ListsView(elements: cars)
+        listsView.configureCell = {
             car, cell, _, _ in
             cell.selectionStyle = .None
             cell.textLabel?.text = car.model
             cell.imageView?.image = UIImage(named: car.image)
         }
-        addChildViewController(listController)
-        listController.view.frame = view.bounds
-        view.addSubview(listController.view)
+        addChildView(listsView)
     }
     
 }
